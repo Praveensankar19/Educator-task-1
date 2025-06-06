@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <div>
+        <form>
+
+            <label for="name"> Name
+                <input name="name" type="text" placeholder="enter name" required>
+            </label>
+            <br><br>
+
+            <label for="email"> Email
+                <input name="email" type="text" placeholder="enter email id" required>
+            </label>
+            <br><br>
+
+            <label for="password"> Password
+                <input name="password" type="password" placeholder="enter password" required>
+            </label>
+            <br><br>
+
+            <label for="number"> Mobile Number
+                <input name="number" type="text" placeholder="enter mobile number" required>
+            </label>
+            <br><br>
+
+            <label for="dob"> DOB
+                <input name="dob" type="date">
+            </label>
+            <br><br>
+
+            <label for="location"> Location
+                <select name="location">
+                    <option value="chennai">Chennai</option>
+                    <option value="Coimbatore">Coimbatore</option>
+                    <option value="Salem">Salem</option>
+                    <option value="Cuddalore">Cuddalore</option>
+                    <option value="Pondichery">Pondichery</option>
+                </select>
+            </label>
+            <br><br>
+
+            <label for="gender"> Gender
+                <input type="radio" name="gender"> Male
+                <input type="radio" name="gender"> Female
+            </label>
+            <br><br>
+
+            <label for="about"> About
+                <textarea name="about" rows="7" cols="20"></textarea>
+            </label>
+            <br><br>
+
+            <label for="resume">Upload file
+                <input type="file" name="resume" id="resume" accept="application/pdf">
+            </label>
+            <br><br>
+
+            <input type="checkbox" name="accept">Accept terms & conditions
+            <br><br>
+
+            <button type="submit"> Submit </button>
+        </form>
+    </div>
+</body>
+</html>
