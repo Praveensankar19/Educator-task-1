@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+        background-color: rgb(102, 212, 212);
+        text-align: center;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header{
+        background-color: chocolate;
+        margin: 0;
+        padding: 15px;
+    }
+
+    h2{
+        background-color: rgb(59, 155, 234);
+        padding: 10px;
+        font-family: monospace;
+        border: 2px solid black;
+    }
+
+    footer{
+        border-top: 1px solid black;
+    }
+</style>
+
+<body>
+    <header>
+        <h1>MULTIMEDIA TAGS</h1>
+    </header>
+
+    <main>
+        <div>
+            <h2>Audio Tag</h1>
+            <audio controls>
+                <source src="./assest/audio.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+
+        <div>
+            <h2>Video Tag</h1>
+            <video controls>
+                <source src="./assest/video.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div>
+            <h2>Embed youtube video</h1>
+            <iframe width="800" height="315" src="https://www.youtube.com/embed/poo0BXryffI?start=8" frameborder="0" 
+            allowfullscreen></iframe>
+        </div>
+
+        <div>
+            <h2>Embed other website </h1>
+            <iframe width="800" height="500" src="https://en.wikipedia.org/wiki/Main_Page" frameborder="0" ></iframe>
+        </div>
+        
+    </main>
+
+    <footer>
+        <p>2025 @Praveen all rights reserved </p>
+    </footer>
+</body>
+</html>
